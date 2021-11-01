@@ -47,7 +47,7 @@ menubar.addEventListener("click", () => {
 
 //scroll to top
 
-var mybutton = document.querySelector(".scroll-to-top");
+let mybutton = document.querySelector(".scroll-to-top");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
@@ -67,4 +67,23 @@ mybutton.addEventListener("click", topFunction);
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+
+//Read More
+const readMore = document.querySelector("#myBtn");
+readMore.addEventListener("click", read);
+function read() {
+  let dots = document.getElementById("dots");
+  let moreText = document.getElementById("more");
+  let btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more >";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "< Read less";
+    moreText.style.display = "inline";
+  }
 }
