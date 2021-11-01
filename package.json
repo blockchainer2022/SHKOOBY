@@ -1,0 +1,17 @@
+{
+  "name": "shkooby",
+  "version": "1.0.0",
+  "description": "landing page of shookby coin",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwind build src/style.css -o public/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  },
+  "dependencies": {}
+}
