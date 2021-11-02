@@ -208,13 +208,14 @@ a {
   padding: 1rem;
   line-height: 1.5rem;
 }
-/* 
+
 footer {
-  background-image: url(./assets/images/footer-bg.png);
+  /* background-image: url(./assets/images/footer-bg.png);
   background-position: left top;
   background-size: cover;
-  background-repeat: no-repeat;
-} */
+  background-repeat: no-repeat; */
+  background-color: #fec200;
+}
 
 .scroll-to-top {
   position: fixed;
