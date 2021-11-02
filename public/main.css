@@ -225,3 +225,7 @@ footer {
 #more {
   display: none;
 }
+
+.list li:before {
+  content: "•";
+}
