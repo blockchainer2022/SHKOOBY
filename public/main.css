@@ -227,6 +227,6 @@ footer {
   display: none;
 }
 
-.list li:before {
+.list li span:before {
   content: "•";
 }
