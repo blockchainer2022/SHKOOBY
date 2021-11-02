@@ -1023,6 +1023,11 @@ video {
   color: rgba(23, 23, 23, var(--tw-text-opacity));
 }
 
+.text-darkGray{
+  --tw-text-opacity: 1;
+  color: rgba(29, 28, 28, var(--tw-text-opacity));
+}
+
 *, ::before, ::after{
   --tw-shadow: 0 0 #0000;
 }
