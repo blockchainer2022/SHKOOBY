@@ -674,6 +674,10 @@ video {
   margin-left: 0px;
 }
 
+.ml-8{
+  margin-left: 2rem;
+}
+
 .flex{
   display: flex;
 }
@@ -791,6 +795,10 @@ video {
 .animate-bounce{
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
+}
+
+.list-disc{
+  list-style-type: disc;
 }
 
 .grid-cols-1{
@@ -1236,8 +1244,8 @@ video {
     display: none;
   }
 
-  .lg\:grid-cols-2{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-4{
